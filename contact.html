@@ -1,0 +1,52 @@
+<!DOCTYPE html> <!--Indicates the version of the html. here html 5 is being used-->
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">  <!-- to make html responsive across devices. -->
+    <meta charset="utf-8"> <!--for encoding properly in any browser,UTF-8 - Character encoding for Unicode. The charset attribute specifies the character encoding for the HTML document-->
+    <title>Basic Portfolio</title> <!--title that appears in the browser-->
+    <link rel="stylesheet" href="./assets/css/reset.css"> <!--external CSS should be 1st-->
+    <link rel="stylesheet" href="./assets/css/style.css"> <!--linking css--> 
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Neha Reddy</h1>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">About</a></li> <!--HTML links are defined with the <a> tagThe link's destination is specified in the href attribute-->
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html" class="add">Contact</a></li>	
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+        <div class="container">
+            <section id="pagecontent">
+            <h2>Contact</h2>
+            <form>
+                    <label for="name">Name</label><br>
+                    <input type="text" name="name" id="name" placeholder="First Name Last Name"></br>
+                    <label for="email">Email</label><br>
+                    <input type="text" name="email" id="email" placeholder="emailID@gmail.com"></br>
+                    <label for="name">Message</label><br>
+                    <textarea name="message" id="message" placeholder="enter your comments here"></textarea></br>
+                    <input type="submit" value="Submit" class="fancy">
+            </form>
+
+        </section>
+         
+        </div>
+
+    <div class="clearfix"></div> <!--Elements after a floating element will flow around it.-->
+    
+    <footer class="x">
+		&copy; Copyright 2018 Neha Reddy
+    </footer>
+
+</body>
+</html>
